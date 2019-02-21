@@ -1,0 +1,124 @@
+body
+{
+  background-color: grey;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.logo
+{
+  font-size: 46px;
+  font-weight: 400;
+  color: #C0D06F;
+  text-align: center;
+  min-height: 120px; /* wysokość obrazka */
+}
+
+.container-fluid
+{
+  width: 100%;
+  text-align: center;
+}
+
+.navbar
+{
+ background-color: grey;
+ min-width: 278px;
+ min-height: 80px;
+}
+
+.sidebar
+{
+  text-align: center;
+  padding-top: 35px;
+  height: 560px;
+  width: 100%;
+}
+
+h2
+{
+  letter-spacing: 2px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+.sidebar-text > li
+{
+  font-size: 26px;
+  text-align: center;
+  margin-top: 10px;
+  letter-spacing: 1px
+}
+
+.sidebar-text > li > ul > li
+{
+  font-size: 18px;
+  text-align: center;
+  margin-top: 5px;
+}
+
+.link
+{
+  text-decoration-style: none;
+  color: black;
+}
+
+.link:hover, .link:focus, .link:visited
+{
+  text-decoration-style: none;
+  color: black;
+}
+
+.footer
+{
+  text-align: center;
+  background-color: black;
+  width: 100%;
+  color: white;
+}
+
+.container-fluid img
+{
+  height: 270px;
+  width: 270px;
+  margin-top: 40px;
+}
+
+.container-fluid img:hover
+{
+  opacity: 0.7;
+}
+
+.container-fluid figcaption
+{
+  margin-top: 8px;
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.maintext
+{
+  width: 100%;
+  text-align: center;
+  margin: auto;
+  margin-top: 40px;
+}
+
+.gallery img
+{
+  width: 120px;
+  height: 120px;
+  overflow: hidden;
+  padding: 3px;
+  margin-top: 20px;
+}
+
+.gallery
+{
+  transition: transform 1.2 ease-in-out;
+}
+
+.gallery:hover 
+{
+  transform: scale(.9);
+}
